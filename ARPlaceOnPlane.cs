@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
-// import
+// imports
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
