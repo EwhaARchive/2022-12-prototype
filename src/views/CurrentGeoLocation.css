@@ -1,0 +1,72 @@
+* {
+    font-family: 'Pretendard-Regular';
+}
+
+.mapContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    width: 450px;
+    height: 450px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 30px;
+}
+
+.info-title {
+    display: block;
+    text-align: center;
+    line-height:30px;
+    border-radius:4px;
+    padding:0px 10px;
+    font-family: 'Pretendard-Regular';
+}
+
+.cannotSearch {
+    background: #fff;
+    color: black;
+    height: 30px;
+    margin-bottom: 125px;
+}
+
+.canSearch {
+    background: #50627F;
+    color: #fff;
+    height:75px;
+    margin-bottom: 165px;
+}
+
+.mapInputs {
+    margin: 0px 30px;  
+    /* background-color: rgba(80, 160, 96); */
+    padding: 20px;
+    border: 2px solid rgba(80, 160, 96);
+}
+
+.userCustomOverlay {
+    width: 100%;
+    padding: 0px 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#userPost {
+   display: none;
+   background-color: #d3d3d3;
+   width: 450px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+}
+
+.userPost_title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.userPost_body {
+    font-size: 20px;
+    margin-top: 10px;
+}

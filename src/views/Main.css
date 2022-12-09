@@ -1,0 +1,19 @@
+.mainimg {
+    position: relative;
+    background-image: url("../gps&image\ transparent.png");
+    width: 612px;
+    height: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maintext {
+    position: absolute;    
+    top: 50%;    
+    transform: translate(0, -50%);
+    font-family: 'Pretendard-Regular';
+    font-weight: bold;
+    font-size: 18px;
+    word-break: keep-all;
+    width: 600px;
+}
