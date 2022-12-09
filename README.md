@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## Kakao Map Api 실습 예제 - React
+### 1. 다운로드 및 개발환경 설치
+- 깃허브 디렉토리를 가져올 폴더를 하나 생성합니다.
+- git bash에서 `git clone https://github.com/EwhaARchive/2022-12-prototype.git`을 입력합니다.
+- 터미널에서 `npm install` 입력 : 리액트 프로젝트 구동을 위해서 패키지 소스코드를 생성합니다.
+- 터미널에서 `npm start` 입력 : 리액트를 구동하여 웹페이지를 확인합니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 2. 홈페이지 설명
+- localhost:3000 (main 페이지) 에서 `시작하기` 버튼을 클릭합니다.
+- localhost:3000/currentplace (시작하기 버튼 이후 페이지)에서 `내 위치 가져오기` 버튼을 클릭하여 내 위치를 확인합니다.
+- 현재 위치가 맞으면 마커 위 말풍선에 `예` 버튼을 눌러주세요.
+- `예` 버튼을 클릭하면 지도 바로 옆에 게시글을 쓸 수 있는 입력창이 뜹니다. 내용을 입력하고 `마커 생성하기` 버튼을 눌러주세요.
+- 지도 창 현재 위치에 노란색 별 마커와 글 제목이 뜰 것입니다.
+- 노란색 별 마커를 클릭하시면 지도 밑에 게시글이 뜨는 것을 확인해주세요!
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. 주의사항
+- 웹페이지에 접속하신 후 "위치 정보 이용 동의"를 하셔야 사용자의 현재 위치를 볼 수 있습니다.
+- html5에서 제공하는 Geolocation API (실시간 위치 자바스크립트 API)는 Chrome 브라우저의 경우 https 프로토콜만 지원합니다. \
+정확한 위치를 원하신다면 크롬 외 다른 브라우저(ex. Microsoft Edge)로 접속 부탁드립니다.
+- GPS가 없는 일반적인 PC에서 Geolocation API를 사용할 경우, 아이피 기반으로 위치검색을 하기 때문에 정확하지 않을 수 있다고 합니다.\
+제가 테스트해보았을 때는 브라우저 문제 제외하고 PC접속으로 인한 오류는 없었으나, 혹시나 또 오류가 난다면 모바일에서 실행해주세요.
