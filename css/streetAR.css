@@ -1,0 +1,27 @@
+#screen {
+    background-image: url('https://i.imgur.com/GHssJx3.png');
+    background-size: 450px 700px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#guide {
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#touchbox {
+    width:100px;
+    height: 100px;
+    margin-top: 320px;
+    margin-left: 135px;
+}

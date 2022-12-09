@@ -16,3 +16,10 @@
     border: solid 3px black;
 }
 
+.bold {
+    font-weight: 600;
+}
+
+.extrabold {
+    font-weight: 800;
+}

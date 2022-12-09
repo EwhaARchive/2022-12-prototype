@@ -1,0 +1,40 @@
+#screen {
+    background-image: url('https://i.imgur.com/Gih5lW7.png');
+    background-size: 600px 700px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#text {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#close {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#close div {
+    margin-top: 20px;
+    width:100px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(0,255,255);
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

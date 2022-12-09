@@ -1,0 +1,10 @@
+#screen {
+    background-image: url('https://i.imgur.com/3TTdkmB.png');
+    background-size: 450px 700px;
+    align-items: center;
+}
+
+#touch {
+    width: 40%;
+    margin-top: 200px;
+}
