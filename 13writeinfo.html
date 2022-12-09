@@ -9,6 +9,45 @@
   <body>
     <div id="container">
         <div id="screen">
+          <div id="main">
+            <form>
+              <h3>제목</h3>
+              <input id="form_title" name="title" type="text" placeholder="타임캡슐의 제목을 적어주세요"/></br>
+              <h3>내용</h3>
+              <textarea id="form_content" name="content" placeholder="타임캡슐의 내용을 적어주세요" rows="10" cols="30"></textarea>
+            </form>
+            <div id="mediacontainer">
+              <div id="mediaheader"><h3>미디어</h3></div>
+              <div id="mediabutton">미디어</br>추가 버튼</div>
+            </div>
+            <div id="visibility">
+              <h3>공개범위</h3>
+              <div>
+                <button>전체공개</button>
+                <button>친구공개</button>
+                <button>비공개</button>  
+              </div>
+            </div>
+            <div id="lock">
+              <h3>잠금설정</h3>
+              <div>
+                <button>O</button>
+                <button>X</button>
+              </div>
+              <h3>잠금기간</h3>
+              <div>
+                <form>
+                  <input type="text"/> <span>일</span>
+                </form>
+              </div>
+            </div>
+
+            <div id="complete">
+              <div id="completebtn" onclick="location.href = '14designegg.html';">
+                완료
+              </div>  
+            </div>
+          </div>
         </div>
     </div>
   </body>

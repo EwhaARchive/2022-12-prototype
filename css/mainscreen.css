@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
-    height: 800px;
-    border: solid 3px black;
     background-image: url('https://i.imgur.com/1a6Skur.png');
 }
 
@@ -59,10 +56,10 @@
 }
 #egg2 {
     top: 100px;
-    left: 420px;
+    left: 380px;
 }
 #egg3 {
-    top: 270px;
+    top: 240px;
     left:330px;
 }
 #egg4 {
