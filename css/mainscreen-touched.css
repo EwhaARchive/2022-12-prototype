@@ -1,0 +1,27 @@
+.subbutton {
+    width:100px;
+    height:100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    margin-right: 5px;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+}
+
+#right {
+    flex-direction: column;
+    margin-left: 5px;
+    background-color: white;
+    font-size: small;
+}
+
+#right span {
+    font-size: large;
+    font-weight: 800;
+}
